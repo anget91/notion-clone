@@ -26,8 +26,8 @@ export default function DocumentsPage() {
         Welcome to {user?.firstName}&apos;s Jotion
       </h2>
       <Button>
-        <PlusCircle className='size-4 mr-2'/>
-         Create a note
+        <PlusCircle className="mr-2 size-4" />
+        Create a note
       </Button>
     </div>
   );
