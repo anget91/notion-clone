@@ -2,15 +2,14 @@
 
 import { Avatar, AvatarImage } from '@/components/ui/avatar';
 import {
+  DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuSeparator,
+  DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import { useUser, SignOutButton } from '@clerk/clerk-react';
-import {
-  DropdownMenu,
-  DropdownMenuTrigger,
-} from '@radix-ui/react-dropdown-menu';
+
 import { ChevronsUpDown } from 'lucide-react';
 
 export default function UserItem() {
